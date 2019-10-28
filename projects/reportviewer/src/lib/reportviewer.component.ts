@@ -5,7 +5,8 @@ import { DomSanitizer, SafeResourceUrl } from '@angular/platform-browser';
   selector: 'ssrs-reportviewer',
   template: `
   <div class="iframe-container">
-    <iframe [src]="source" scrolling="no" sandbox="allow-top-navigation allow-forms"></iframe>
+    <iframe [src]="source" scrolling="no" sandbox="allow-top-navigation allow-forms allow-scripts allow-same-origin
+     allow-popups allow-popups-to-escape-sandbox"></iframe>
   </div>
   `,
   styles: [`
