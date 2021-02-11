@@ -11,9 +11,7 @@ import { DomSanitizer, SafeResourceUrl } from '@angular/platform-browser';
   `,
   styles: [`
   .iframe-container {
-    overflow: hidden;
-    padding-top: 56.25%;
-    position: relative;
+
   }
 
   .iframe-container iframe {
