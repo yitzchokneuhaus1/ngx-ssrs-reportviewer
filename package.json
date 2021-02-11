@@ -1,6 +1,6 @@
 {
   "name": "ngx-ssrs-reportviewer-hcm",
-  "version": "1.0.9",
+  "version": "1.0.12",
   "author": "Yitzchok Neuhaus",
   "homepage": "https://github.com/yitzchokneuhaus1/ngx-ssrs-reportviewer",
   "repository": {
@@ -36,6 +36,7 @@
     "bootstrap": "^4.3.1",
     "core-js": "^2.5.4",
     "ngx-ssrs-reportviewer": "github:yitzchokneuhaus1/ngx-ssrs-reportviewer",
+    "node-sass": "^4.0.0",
     "rxjs": "~6.3.3",
     "tslib": "^1.9.0",
     "zone.js": "~0.8.26"
